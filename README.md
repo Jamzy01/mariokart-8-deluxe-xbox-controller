@@ -2,7 +2,11 @@
 
 #### A rust program that allows you use a controller to play mario kart 8 deluxe using an emulator like Yuzu or Ryujinx
 
+<br>
+
 ## Limitations
+
+<br>
 
 #### Only works on windows. The keyboard simulation library that I used is windows specific, and I haven't tested the library on any other operating systems.
 
@@ -13,6 +17,8 @@
 #### Does cause lag to the game and operating system, and the controls don't feel immediate, with sometimes roughly a 10+ms delay.
 
 ## Setup
+
+<br>
 
 <img alt="Keybind Setup" src="images/keybindscreenshot.png" width="70%">
 
@@ -43,3 +49,15 @@
 <br>
 
 #### And that's it! If you ever want to pause the game, just click anywhere on the screen with your mouse
+
+<br>
+
+## Building from source
+
+<br>
+
+```console
+cargo run --release
+```
+
+Run on the main directory with the cargo.toml
